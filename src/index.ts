@@ -6,6 +6,7 @@ import EmbeddingRetrieval from "./EmbeddingRetrieval";
 import path from "path";
 import fs from "fs";
 import { logTitle } from "./util";
+import { log } from "console";
 
 const currentDir = process.cwd()
 
