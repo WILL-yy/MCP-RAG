@@ -6,12 +6,19 @@
     "esModuleInterop": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "strict": true
+    "strict": true,
+    "sourceMap": true,                  // ✅ 启用 Source Map 映射 .ts → .js
+    "inlineSources": true,              // ✅ 提高调试体验
+    "skipLibCheck": true    
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "scripts": {
+  "start": "ts-node src/index.ts"
+  }
+
 }
