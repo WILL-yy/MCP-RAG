@@ -5,7 +5,6 @@ import Agent from "./Agent";
 import EmbeddingRetrieval from "./EmbeddingRetrieval";
 import path from "path";
 import fs from "fs";
-import { logTitle } from "./util";
 
 const currentDir = process.cwd()
 
